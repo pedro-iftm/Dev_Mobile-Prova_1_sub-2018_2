@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtModa"
+        android:layout_width="319dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="3"
+        android:text="@string/txtPizzaModa"
+        android:textColor="#FFA500"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt4Queijo"
+        android:layout_width="319dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="3"
+        android:text="@string/txtPizza4Queijo"
+        android:textColor="#FFA500"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtModa" />
+
+    <TextView
+        android:id="@+id/txtAliche"
+        android:layout_width="319dp"
+        android:layout_height="39dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="40dp"
+        android:layout_weight="3"
+        android:text="@string/txtPizzaAliche"
+        android:textColor="#FFA500"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt4Queijo" />
+
+    <TextView
+        android:id="@+id/txtCalabresa"
+        android:layout_width="322dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="3"
+        android:text="@string/txtPizzaCalabresa"
+        android:textColor="#FFA500"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAliche" />
+
+    <TextView
+        android:id="@+id/txtPeperoni"
+        android:layout_width="319dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="3"
+        android:text="@string/txtPizzaPeperoni"
+        android:textColor="#FFA500"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCalabresa" />
+
+    <Button
+        android:id="@+id/btnPizzaModa"
+        android:layout_width="44dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_weight="3"
+        android:background="#FFA500"
+        android:text="@string/btnTxtPizzaModa"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtModa"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPizza4Quejo"
+        android:layout_width="44dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="3"
+        android:background="#FFA500"
+        android:text="@string/btnTxtPizza4Queijo"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txt4Queijo"
+        app:layout_constraintTop_toBottomOf="@+id/btnPizzaModa" />
+
+    <Button
+        android:id="@+id/btnPizzaAliche"
+        android:layout_width="44dp"
+        android:layout_height="43dp"
+        android:layout_gravity="left"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_weight="3"
+        android:background="#FFA500"
+        android:text="@string/btnTxtPizzaAliche"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtAliche"
+        app:layout_constraintTop_toBottomOf="@+id/btnPizza4Quejo" />
+
+    <Button
+        android:id="@+id/btnPizzaCalabresa"
+        android:layout_width="44dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:layout_weight="3"
+        android:background="#FFA500"
+        android:text="@string/btnTxtPizzaCalabresa"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtCalabresa"
+        app:layout_constraintTop_toBottomOf="@+id/btnPizzaAliche" />
+
+    <Button
+        android:id="@+id/btnPizzaPeperoni"
+        android:layout_width="44dp"
+        android:layout_height="43dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_weight="3"
+        android:background="#FFA500"
+        android:text="@string/btnTxtPizzaPeperoni"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtPeperoni"
+        app:layout_constraintTop_toBottomOf="@+id/btnPizzaCalabresa" />
+
+    <TextView
+        android:id="@+id/txtDSCModa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtDSCPizzaModa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtModa" />
+
+    <TextView
+        android:id="@+id/txtDSC4Queijo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtDSCPizza4Queijo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt4Queijo" />
+
+    <TextView
+        android:id="@+id/txtDSCAliche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtDSCPizzaAliche"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAliche" />
+
+    <TextView
+        android:id="@+id/txtDSCCalabresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtDSCPizzaCalabresa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCalabresa" />
+
+    <TextView
+        android:id="@+id/txtDSCPeperoni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txtDSCPizzaPeperoni"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPeperoni" />
+
+    <TextView
+        android:id="@+id/txtValor"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/txtValor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Prova 1</string>
+    //
+    <string name="txtPizzaModa"> A moda do freguês</string>
+    <string name="txtPizza4Queijo"> 4 queijos</string>
+    <string name="txtPizzaAliche"> Aliche</string>
+    <string name="txtPizzaCalabresa"> Calabresa</string>
+    <string name="txtPizzaPeperoni"> Peperoni</string>
+    //
+    <string name="btnTxtPizzaModa">1</string>
+    <string name="btnTxtPizza4Queijo">2</string>
+    <string name="btnTxtPizzaAliche">3</string>
+    <string name="btnTxtPizzaCalabresa">4</string>
+    <string name="btnTxtPizzaPeperoni">5</string>
+    //
+    <string name="txtDSCPizzaModa"> Escolha no máximo 5 ingredientes</string>
+    <string name="txtDSCPizza4Queijo"> Gorgonzola, mussarela, parmesão, provolone</string>
+    <string name="txtDSCPizzaAliche"> Aliche e mussarela</string>
+    <string name="txtDSCPizzaCalabresa"> Calabresa com queijo mussarela</string>
+    <string name="txtDSCPizzaPeperoni"> Peperoni com queijo mussarela</string>
+    //
+    <string name="txtValor">Total do Pedido: R$0</string>
+</resources>
